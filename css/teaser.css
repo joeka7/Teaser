@@ -354,11 +354,14 @@ body {
     font-size: 17px;
     width: 90%;
 }
+.sale .btn-box {
+    width: 170px;
+    margin: 0 auto;
+}
 .sale .btn-box a {
     display: block;
     text-decoration: none;
     text-align: center;
-    width: 135px;
     padding: 7px 30px;
     margin: 25px auto;
     background-color: transparent;
