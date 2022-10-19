@@ -15,30 +15,40 @@
 <body>
     <!-- Start Header -->
     <div class="hero-area">
-        <header class="header-section" id="home">
-            <div class="container">
-                <nav>
-                    <div class="image">
-                        <a href="#"><img src="imgs/logo.png" alt=""></a>
-                    </div>
+        <header class="header-section">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt=""></a>
                     <div class="log">
                         <a href="#">Login</a>
                         <a href="#">Sign Up</a>
                     </div>
-                    <div class="user-option">
-                        <div class="icon">
-                            <i class="fa-solid fa-bars"></i>
+                    <button class="navbar-toggler me-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-body d-flex justify-content-center align-items-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#house">House</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#pricing">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact Us</a>
+                                </li>
+                            </ul>
                         </div>
-                        <ul class="options">
-                            <a href="#home"><li>Home</li></a>
-                            <a href="#home"><li>About</li></a>
-                            <a href="#home"><li>House</li></a>
-                            <a href="#home"><li>Pricing</li></a>
-                            <a href="#home"><li>contact us</li></a>
-                        </ul>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </header>
         <!-- End Header -->
         <!-- Start Section -->
