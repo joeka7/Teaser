@@ -18,7 +18,7 @@ body {
     color: black;
     letter-spacing: 1.5px;
     border-left: 7px solid #0f2480;
-    padding-left: 5px;
+    padding-left: 10px;
     padding-bottom: 3px;
 }
 @media (max-width: 991px) {
@@ -28,6 +28,8 @@ body {
     }
 }
 .up {
+    width: 50px;
+    height: 50px;
     background-color: var(--main-third-color);
     color: white;
     padding: 5px 8px;
@@ -43,7 +45,7 @@ body {
 .up::before {
     font-family: "FontAwesome";
     content: "\f077";
-    font-size: 18px;
+    font-size: 22px;
     position: relative;
 }
 /* Start Header */
@@ -124,9 +126,6 @@ body {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
-.toggle:hover {
-    border: 2px solid var(--main-color);
-}
 .toggle span {
     width: 100%;
     background-color: white;
@@ -138,7 +137,11 @@ body {
     -o-transition: 0.3s;
 }
 .toggle:hover span {
-    border: 2px solid var(--main-color);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
 }
 .icon-links {
     position: fixed;
@@ -601,7 +604,7 @@ div .open {
     display: block;
     text-decoration: none;
     text-align: center;
-    padding: 7px 30px;
+    padding: 15px 20px;
     margin: 40px auto 0;
     background-color: white;
     color: black;
