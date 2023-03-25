@@ -384,6 +384,11 @@ div .open {
 }
 .about .image img {
     max-width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 @media (max-width: 991px) {
     .about .text {
@@ -770,6 +775,7 @@ div .open {
     }
 }
 .footer .second input:not(:last-child) {
+    padding-left: 10px;
     margin-bottom: 20px;
     width: 100%;
     height: 40px;
